@@ -15,6 +15,12 @@ local themes = {
 -- first page
 local page = venyx:addPage("Features", 5012544693)
 
+local aim = page:addSection("Aim Stuff")
+local pm = page:addSection("Mods")
+local sets = page:addSection("Toggle Menu")
+local meleey = page:addSection("Melee")
+local skiney = page:addSection("Skins")
+local otr = page:addSection("Others")
 
 aim:addButton("Silent Aim", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenlisku/hi/main/bye", true))()
